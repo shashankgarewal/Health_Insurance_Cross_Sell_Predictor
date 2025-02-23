@@ -1,4 +1,6 @@
-# INSURANCE PREMIUM ESTIMATE AND CROSS-SALE PREDICTION
+# INSURANCE CROSS-SALE PREDICTION
+
+This readme is still in making..
 
 # Goal: 
 
@@ -25,30 +27,14 @@
 * Vintage:	                Number of Days, Customer has been associated with the company
 * Response:	                1 (Customer is interested), 0 (Customer is not interested)
 
- # Solution Approach
- Steps Followed for Building Machine Learning  Model:
- 
-Step 1: Loading the dataset from the  prompt
-			-The user is asked to select the input file
-			-The user is allowed to load only  CSV file format as per current scenario
-
-Step 2: Handling anomalies
-			- Hist plot and desriptive statistics is used for handling annomalies in the annual premium.
-      
-Step 3: Converting categorical features into numeric:
-			- One-hot encoding is performed on categorical features:Gender, Vehicle_Damage, and Vehicle_Age.
-      
-Step 4: Tested multiple models to identify best model for premium estimate
-			- used decision tree, and ensemble technique to determine best model for estimation
-      
-Step 5: Added estimated premium to original data 
-		    - Model for predicting customer vehicle insurance interest, and determined accuracy, precision, f1-score, and auc-roc score are calculated
+# Steps to contribute to the project
+* Make a clone
 
 # Code Execution Steps:
-* python notebook and scripts files are present: eda and modeling.ipynb and script.py.
+* python notebook and scripts files are present at respective folders.
 * 
 
 
 # Note 
-* train.csv: I have used this dataset for the use case.
-
+* train.csv: I have used this dataset for preprocessing performed during EDA and stored the preprocessed data in [artificats](/artifacts/data.csv).
+* Dataset can be found in [kaggle](https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction).
