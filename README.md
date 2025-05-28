@@ -46,6 +46,7 @@ This readme is still in making..
 --->
 
 
-# Note 
-* train.csv: I have used this dataset for preprocessing performed during EDA and stored the preprocessed data in [artificats](/artifacts/data.csv).
-* Dataset can be found in [kaggle].
+# Data Insights
+* XBG model showed best performance
+* Previously Insured feature has most influneced towards prediction. 
+![alt text](image-1.png)
