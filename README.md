@@ -27,14 +27,25 @@ This readme is still in making..
 * Vintage:	                Number of Days, Customer has been associated with the company
 * Response:	                1 (Customer is interested), 0 (Customer is not interested)
 
+# Project Structure:
+* [dataset/](dataset/): contains original data from [kaggle dataset](https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction)
+* [notebook/](notebook/): Jupyter notebooks for data exploration and attempted data models.
+* [aritifacts/](aritifacts/): processed data generated in the process of eda
+* [sripts/](scripts/): contains final model and deployment script that are currently <span style='color: #Cb4154;'>under-development</span>.
+* 
+
+
+
+<!---
 # Steps to contribute to the project
 * Make a clone
 
 # Code Execution Steps:
 * python notebook and scripts files are present at respective folders.
 * 
+--->
 
 
 # Note 
 * train.csv: I have used this dataset for preprocessing performed during EDA and stored the preprocessed data in [artificats](/artifacts/data.csv).
-* Dataset can be found in [kaggle](https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction).
+* Dataset can be found in [kaggle].
